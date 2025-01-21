@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Family Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?auto=format&fit=crop&q=80&w=200" alt="Popular Family Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Refreshing Moments</h1>
+            <p>Discover our range of quality beverages and products</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQF5qTW4L6avcw/feedshare-shrink_800/B56ZSJgQ78HQAk-/0/1737473724700?e=1740614400&v=beta&t=3pPD5mPs0-7QpKuDO0a8KKYYYxp-Qkt4XOykYOZavgU" alt="Maza Chaunsa">
+            <div class="product-info">
+                <h2>Maza Chaunsa</h2>
+                <p>$2.50</p>
+                <button class="add-to-cart" onclick="addToCart('Maza Chaunsa', 2.50, this.parentElement.previousElementSibling.src)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQHp-G2qZhA6XQ/feedshare-shrink_800/B56ZSJgQ8sHsAg-/0/1737473725041?e=1740614400&v=beta&t=o07axzm-CZG5UH9u4ac-qKI1Q29WsoFlFBx-PxpDV7o" alt="Hope Water">
+            <div class="product-info">
+                <h2>Hope Drinking Water</h2>
+                <p>$3.90</p>
+                <button class="add-to-cart" onclick="addToCart('Hope Drinking Water', 3.90, this.parentElement.previousElementSibling.src)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQGV9EyI0tubBw/feedshare-shrink_1280/B56ZSJgQ8lHQAo-/0/1737473725030?e=1740614400&v=beta&t=JSuf-8Y8jCKeYXlNdti1rR-lbA1qIZYlkpqb2PPaFRk" alt="Mine Baby Diapers">
+            <div class="product-info">
+                <h2>Mine Baby Diapers</h2>
+                <p>$5.00</p>
+                <button class="add-to-cart" onclick="addToCart('Mine Baby Diapers', 5.00, this.parentElement.previousElementSibling.src)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQE1i_rthbbo0A/feedshare-shrink_1280/B56ZSJgQ86HQAk-/0/1737473725085?e=1740614400&v=beta&t=n2LxFp8eOJq9AS8Ia76VXM4nlJeP98A_tyhgEr1W25M" alt="Real Froot">
+            <div class="product-info">
+                <h2>Real Froot Mango</h2>
+                <p>$3.20</p>
+                <button class="add-to-cart" onclick="addToCart('Real Froot Mango', 3.20, this.parentElement.previousElementSibling.src)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@popularfamily.</p>
+                <p>Phone: +1-234-567-8900</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Popular Family. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
